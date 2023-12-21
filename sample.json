@@ -1,0 +1,140 @@
+[
+    {
+    "User": "testperformance01@qctest.com",
+    "program_id": 344,
+    "sessions": [
+        {
+            "sessionid": "318",
+            "lessons": [
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                }
+            ]
+        },
+        {
+            "sessionid": "318",
+            "lessons": [
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                }
+            ]
+        }
+    ]
+},
+{
+    "User": "testperformance02@qctest.com",
+    "program_id": 344,
+    "sessions": [
+        {
+            "sessionid": "318",
+            "lessons": [
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                }
+            ]
+        },
+        {
+            "sessionid": "318",
+            "lessons": [
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                }
+            ]
+        }
+    ]
+},
+{
+    "User": "testperformance03@qctest.com",
+    "program_id": 344,
+    "sessions": [
+        {
+            "sessionid": "318",
+            "lessons": [
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                }
+            ]
+        },
+        {
+            "sessionid": "318",
+            "lessons": [
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                },
+                {
+                    "lesson_id": "395",
+                    "video_content_id": ["349", "349", "349"],
+                    "test_content_id": ["354", "354", "354"]
+                }
+            ]
+        }
+    ]
+}
+]
