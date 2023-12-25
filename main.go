@@ -82,25 +82,27 @@ func main() {
 		accessToken := gjson.Get(body.String(), "data.token")
 		if bodyStatus.Num != 20000 {
 			logger.Error("Login fail, response body:", body.String())
-			break
-			//attacker.Stop()
+			attacker.Stop()
+			//break
 		} else { // if login is success
 			targeter := EnplusAttend("/auth/execute-programs/listByUser?role_id=3", accessToken.String())
-			rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
-			duration := 1 * time.Second
+			rate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
+			duration := 10 * time.Millisecond
 			for res := range attacker.Attack(targeter, rate, duration, "Attend") {
 				metrics.Add(res)
 				body := bytes.NewBuffer(res.Body)
 				bodyMessage := gjson.Get(body.String(), "message")
 				log.Info("Attend message: ", gjson.Get(body.String(), "message"))
-				if bodyMessage.Raw != "プログラムを正常にリストします" {
+				//fmt.Println("message raw", bodyMessage.Raw)
+				if bodyMessage.Raw != "\"プログラムを正常にリストします\"" {
 					logger.Error("Attend fail, response body:", body.String())
+					attacker.Stop()
 					break
 				}
-				//attacker.Stop()
-				break
+				attacker.Stop()
 			}
 		}
+		attacker.Stop()
 	}
 	metrics.Close()
 	reporter := vegeta.NewTextReporter(&metrics)
