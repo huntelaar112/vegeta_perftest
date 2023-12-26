@@ -134,6 +134,41 @@ func EnplusStartTest(subendpoint, xaccesstoken string, programd_id, session_id, 
 	}
 }
 
+func EnplusEvaluateTest(subendpoint, xaccesstoken string, trackingTest int) vegeta.Targeter {
+	return func(tgt *vegeta.Target) error {
+		if tgt == nil {
+			return vegeta.ErrNilTarget
+		}
+
+		if subendpoint == "" {
+			subendpoint = "/auth/execute-programs/evaluateTest"
+		}
+
+		Body := map[string]interface{}{
+			"tracking_id":     trackingTest,
+			"comment":         "so easy",
+			"difficult_level": 1,
+		}
+		BodyJson, err := json.Marshal(Body)
+		if err != nil {
+			return err
+		}
+		payload := string(BodyJson)
+
+		header := http.Header{}
+		header.Add("x-access-token", xaccesstoken)
+		header.Add("Content-Type", "application/json")
+		header.Add("x-language", "ja")
+
+		tgt.Method = "PUT"
+		tgt.URL = DomainTest + subendpoint
+		tgt.Body = []byte(payload)
+		tgt.Header = header
+
+		return nil
+	}
+}
+
 func EnplusStartVid(subendpoint, xaccesstoken string, programd_id, session_id, lession_id, video_content_id uint16) vegeta.Targeter {
 	return func(tgt *vegeta.Target) error {
 		if tgt == nil {

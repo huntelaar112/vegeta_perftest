@@ -6,7 +6,6 @@ require (
 	github.com/huntelaar112/goutils/utils v0.0.0-20231225002544-25540c45ac6f
 	github.com/sirupsen/logrus v1.9.3
 	github.com/tidwall/gjson v1.17.0
-	github.com/tsenart/vegeta v12.7.0+incompatible
 	github.com/tsenart/vegeta/v12 v12.11.1
 )
 
