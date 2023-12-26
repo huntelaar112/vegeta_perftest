@@ -1,0 +1,35 @@
+{
+  "file": "/home/user/go/src/vegeta_perftest/main.go:84",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:\u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e403 Forbidden\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e403 Forbidden\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+  "time": "2023-12-27T00:37:19+07:00"
+}
+{
+  "file": "/home/user/go/src/vegeta_perftest/main.go:84",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:\u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e403 Forbidden\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e403 Forbidden\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+  "time": "2023-12-27T00:37:19+07:00"
+}
+{
+  "file": "/home/user/go/src/vegeta_perftest/main.go:84",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:\u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e403 Forbidden\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e403 Forbidden\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+  "time": "2023-12-27T00:37:19+07:00"
+}
+{
+  "file": "/home/user/go/src/vegeta_perftest/main.go:84",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:\u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e403 Forbidden\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e403 Forbidden\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+  "time": "2023-12-27T00:37:19+07:00"
+}
+{
+  "file": "/home/user/go/src/vegeta_perftest/main.go:84",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:\u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e403 Forbidden\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e403 Forbidden\u003c/h1\u003e\u003c/center\u003e\r\n\u003chr\u003e\u003ccenter\u003enginx\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n",
+  "time": "2023-12-27T00:37:19+07:00"
+}

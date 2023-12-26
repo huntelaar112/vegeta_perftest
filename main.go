@@ -29,9 +29,11 @@ var (
 	countRealStartTest = 0
 	countRealStartVid  = 0
 
-	NumberThread = 10
+	NumberThread = 5
 	PerSeconds   = 1
 	Durration    = 1
+
+	waitGroup sync.WaitGroup
 )
 
 func init() {
@@ -39,7 +41,6 @@ func init() {
 }
 
 func main() {
-	var wg sync.WaitGroup
 	filePath := "./response.json"
 	jsonFileContent, err := ioutil.ReadFile(filePath)
 	if err != nil {
@@ -86,7 +87,7 @@ func main() {
 			//break
 		} else { // if login is success
 			// Attend ***************************************************************
-			attendFunc := func() {
+			go func() {
 				countRealAttend++
 				attendTargeter := enplus.EnplusAttend("/auth/execute-programs/listByUser?role_id=3", accessToken.String())
 				/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
@@ -103,8 +104,8 @@ func main() {
 				if bodyMessage.String() != "プログラムを正常にリストします" {
 					logger.Error("Attend fail, response body:", body.String())
 				}
-			}
-			go attendFunc()
+			}()
+			//go attendFunc()
 
 			userInfo := jsonFileContentArray[countRealLogin]
 			//fmt.Println(userInfo)
@@ -133,7 +134,9 @@ func main() {
 							continue
 						} else {
 							if lession.TestContentID[i] != 0 {
-								StartTestFuncAndEvaluate := func() {
+								waitGroup.Add(1)
+								go func() {
+									defer waitGroup.Done()
 									var trackingTest int
 									countRealStartTest++
 									Targeter := enplus.EnplusStartTest("/auth/execute-programs/startTest", accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentID[i])
@@ -166,8 +169,8 @@ func main() {
 									if evaluatebodyMessage.String() != "テストを正常に評価します" {
 										logger.Error("Evaluate test fail, response body:", body.String())
 									}
-								}
-								go StartTestFuncAndEvaluate()
+								}()
+								//go StartTestFuncAndEvaluate()
 							}
 
 							/* 							StartVidFunc := func() {
@@ -199,7 +202,7 @@ func main() {
 		}
 		//attacker.Stop()
 	}
-	wg.Wait()
+	waitGroup.Wait()
 	log.Warn("Login count = ", countRealLogin)
 	log.Warn("Attend count = ", countRealAttend)
 	log.Warn("Start test count = ", countRealStartTest)
