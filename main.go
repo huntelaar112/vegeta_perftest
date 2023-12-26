@@ -18,12 +18,14 @@ import (
 )
 
 var (
-	DomainTest = "https://stg-enplusesma-backend.runsystem.work"
-	Password   = "admin@esMA2023"
-	countLogin = 0
-	logger     = log.New()
-	logf       *os.File
-	applog     = "./Request_error.log"
+	DomainTest      = "https://stg-enplusesma-backend.runsystem.work"
+	Password        = "admin@esMA2023"
+	countLogin      = 0
+	logger          = log.New()
+	logf            *os.File
+	applog          = "./error_rqs.log"
+	countRealLogin  = 0
+	countRealAttend = 0
 )
 
 type Lesson struct {
@@ -48,7 +50,7 @@ func init() {
 }
 
 func main() {
-	filePath := "./sample.json"
+	filePath := "./samplenew.json"
 	jsonFileContent, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		log.Error("Error reading file:", err)
@@ -64,17 +66,20 @@ func main() {
 		log.Error("Error unmarshal json:", err)
 	}
 	//fmt.Printf("%+v", jsonFileContentArray)
-	log.Info(jsonFileContentArray)
+	//log.Info(jsonFileContentArray)
 
-	log.Info("Start performance test.")
-	rate := vegeta.Rate{Freq: 3, Per: 1 * time.Second}
-	duration := 1 * time.Second
+	log.Warn("Start performance test.")
+	/* 	rate := vegeta.Rate{Freq: 100, Per: 1 * time.Second}
+	   	duration := 600 * time.Second */
+	rate := vegeta.Rate{Freq: 20, Per: 1 * time.Second}
+	duration := 2 * time.Second
 
 	attacker := vegeta.NewAttacker()
 	var metrics vegeta.Metrics
 	targeter := EnplusLogin("/login", jsonFileContentArray)
 
-	for res := range attacker.Attack(targeter, rate, duration, "Enplus") {
+	for res := range attacker.Attack(targeter, rate, duration, "EnplusLogin") {
+		countRealLogin++
 		metrics.Add(res)
 		body := bytes.NewBuffer(res.Body)
 		bodyStatus := gjson.Get(body.String(), "status")
@@ -82,28 +87,36 @@ func main() {
 		accessToken := gjson.Get(body.String(), "data.token")
 		if bodyStatus.Num != 20000 {
 			logger.Error("Login fail, response body:", body.String())
-			attacker.Stop()
+			continue
+			//attacker.Stop()
 			//break
 		} else { // if login is success
-			targeter := EnplusAttend("/auth/execute-programs/listByUser?role_id=3", accessToken.String())
-			rate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
-			duration := 10 * time.Millisecond
-			for res := range attacker.Attack(targeter, rate, duration, "Attend") {
+			countRealAttend++
+			attendTargeter := EnplusAttend("/auth/execute-programs/listByUser?role_id=3", accessToken.String())
+			attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
+			attendDuration := 10 * time.Millisecond
+			attacker := vegeta.NewAttacker()
+			for res := range attacker.Attack(attendTargeter, attendRate, attendDuration, "Attend") {
 				metrics.Add(res)
 				body := bytes.NewBuffer(res.Body)
 				bodyMessage := gjson.Get(body.String(), "message")
 				log.Info("Attend message: ", gjson.Get(body.String(), "message"))
-				//fmt.Println("message raw", bodyMessage.Raw)
-				if bodyMessage.Raw != "\"プログラムを正常にリストします\"" {
+				//log.Info(bodyMessage.String())
+				if bodyMessage.String() != "プログラムを正常にリストします" {
 					logger.Error("Attend fail, response body:", body.String())
-					attacker.Stop()
-					break
+					continue
+					//attacker.Stop()
+					//break
 				}
-				attacker.Stop()
+				//attacker.Stop()
 			}
+
 		}
-		attacker.Stop()
+		//attacker.Stop()
+
 	}
+	log.Warn("Login count = ", countRealLogin)
+	log.Warn("Attend count = ", countRealAttend)
 	metrics.Close()
 	reporter := vegeta.NewTextReporter(&metrics)
 	file, err := os.Create("./resultfile")
@@ -159,7 +172,7 @@ func EnplusLogin(subendpoint string, samples []JSONTestSample) vegeta.Targeter {
 		}
 
 		payload := string(loginInfoJson)
-		log.Info(payload)
+		/* log.Info(payload) */
 
 		tgt.Body = []byte(payload)
 
@@ -190,6 +203,43 @@ func EnplusAttend(subendpoint, xaccesstoken string) vegeta.Targeter {
 		header := http.Header{}
 		header.Add("x-access-token", xaccesstoken)
 
+		tgt.Header = header
+
+		return nil
+	}
+}
+
+func EnplusStartTest(subendpoint, xaccesstoken string, programd_id, session_id, lession_id, test_content_id uint16) vegeta.Targeter {
+	return func(tgt *vegeta.Target) error {
+		if tgt == nil {
+			return vegeta.ErrNilTarget
+		}
+
+		if subendpoint == "" {
+			subendpoint = "/auth/execute-programs/startTest"
+		}
+
+		startTestBody := map[string]interface{}{
+			"program_id": programd_id,
+			"section_id": session_id,
+			"lesson_id":  lession_id,
+			"content_id": test_content_id,
+			"role_id":    3,
+		}
+		startTestBodyJson, err := json.Marshal(startTestBody)
+		if err != nil {
+			return err
+		}
+		payload := string(startTestBodyJson)
+
+		header := http.Header{}
+		header.Add("x-access-token", xaccesstoken)
+		header.Add("Content-Type", "application/json")
+		header.Add("x-language", "ja")
+
+		tgt.Method = "POST"
+		tgt.URL = DomainTest + subendpoint
+		tgt.Body = []byte(payload)
 		tgt.Header = header
 
 		return nil
