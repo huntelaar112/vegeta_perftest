@@ -1,8 +1,9 @@
-Requests      [total, rate, throughput]         200, 40.17, 18.22
-Duration      [total, attack, wait]             10.977s, 4.978s, 5.999s
-Latencies     [min, mean, 50, 90, 95, 99, max]  4.809s, 7.761s, 1.125s, 5.333s, 6.17s, 9.6s, 9.305s
-Bytes In      [total, mean]                     259400, 1297.00
-Bytes Out     [total, mean]                     14400, 72.00
-Success       [ratio]                           100.00%
-Status Codes  [code:count]                      0:409  200:132044  
+Requests      [total, rate, throughput]         500, 50.09, 0.00
+Duration      [total, attack, wait]             39.984s, 9.983s, 30.001s
+Latencies     [min, mean, 50, 90, 95, 99, max]  30s, 30.001s, 30.001s, 30.001s, 30.001s, 30.002s, 30.015s
+Bytes In      [total, mean]                     0, 0.00
+Bytes Out     [total, mean]                     0, 0.00
+Success       [ratio]                           0.00%
+Status Codes  [code:count]                      0:500  
 Error Set:
+Post "https://stg-enplusesma-backend.runsystem.work/login": context deadline exceeded (Client.Timeout exceeded while awaiting headers)

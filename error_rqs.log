@@ -1,0 +1,3500 @@
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:12+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:15+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:15+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:15+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:15+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:15+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:15+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:25+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:26+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:26+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:26+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:26+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:26+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:26+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:26+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:28+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:29+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:29+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:29+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:29+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:29+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:29+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:30+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:31+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:97",
+  "func": "main.main",
+  "level": "error",
+  "msg": "Login fail, response body:{\"status\":100001,\"message\":\" お手数ですが再度ログイン画面よりログインしてください。\",\"errors\":{\"name\":\"KnexTimeoutError\"},\"isSuccess\":false}; Error",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:32+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:267",
+  "func": "main.Attend",
+  "level": "error",
+  "msg": "Attend fail, response body:; ErrorGet \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/listByUser?role_id=3\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:33+07:00"
+}
+{
+  "file": "/home/mannk/go/src/vegeta_perftest/main.go:289",
+  "func": "main.startTestAttack",
+  "level": "error",
+  "msg": "Start test fail, response body:; ErrorPost \"https://stg-enplusesma-backend.runsystem.work/auth/execute-programs/startTest\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+  "time": "2023-12-27T17:52:35+07:00"
+}

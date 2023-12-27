@@ -37,11 +37,10 @@ var (
 	countRealNotifications      = 0
 
 	NumberThread = 500
-	PerSeconds   = 6
-	Durration    = 6
+	PerSeconds   = 10
+	Durration    = 10
 
 	waitGroup    sync.WaitGroup
-	mutexLog     = &sync.Mutex{}
 	mutexMetrics = &sync.Mutex{}
 )
 
@@ -74,9 +73,10 @@ func main() {
 	duration := time.Duration(uint64(Durration) * uint64(time.Second))
 
 	attacker := vegeta.NewAttacker(
-		vegeta.Workers(100), // Set the number of workers to 100
+		vegeta.Workers(1000), // Set the number of workers to 100
 		vegeta.KeepAlive(false),
 		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
 		//vegeta.HTTP2(true),
 	)
 	var metrics vegeta.Metrics
@@ -90,11 +90,11 @@ func main() {
 		body := bytes.NewBuffer(res.Body)
 		bodyStatus := gjson.Get(body.String(), "status")
 		//log.Info("Login status: ", gjson.Get(body.String(), "status"))
-		log.Info("Login: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+		log.Info("Login: message:", gjson.Get(body.String(), "message"), "; status: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 		accessToken := gjson.Get(body.String(), "data.token")
 		requestusername := gjson.Get(body.String(), "data.username").String()
 		if bodyStatus.Num != 20000 {
-			logger.Error("Login fail, response body:", body.String())
+			logger.Error("Login fail, response body:", body.String(), "; Error", res.Error)
 			continue
 		} else { // if login is success
 			// Attend ***************************************************************
@@ -139,9 +139,6 @@ func main() {
 								countRealStartTest++
 								_, err := startTestAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i], metrics)
 								if err != nil {
-									mutexLog.Lock()
-									log.Error(err)
-									mutexLog.Unlock()
 									break
 								}
 
@@ -157,27 +154,18 @@ func main() {
 								countRealStartVid++
 								trackingVidId, err := startVidAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.VideoContentIDs[i], metrics)
 								if err != nil {
-									mutexLog.Lock()
-									log.Error(err)
-									mutexLog.Unlock()
 									break
 								}
 								// Complete Video ********************************************************************************
 								countRealCompleteVid++
 								err = CompleteVidAttack(accessToken.String(), trackingVidId, metrics)
 								if err != nil {
-									mutexLog.Lock()
-									log.Error(err)
-									mutexLog.Unlock()
 									break
 								}
 								// ListProgramByRole ********************************************************************************
 								countRealListProgramByRole++
 								err = ListProgramByRole(accessToken.String(), metrics)
 								if err != nil {
-									mutexLog.Lock()
-									log.Error(err)
-									mutexLog.Unlock()
 									break
 								}
 
@@ -185,9 +173,6 @@ func main() {
 								countRealListActivityByRole++
 								err = ListActivityByRole(accessToken.String(), metrics)
 								if err != nil {
-									mutexLog.Lock()
-									log.Error(err)
-									mutexLog.Unlock()
 									break
 								}
 
@@ -195,9 +180,6 @@ func main() {
 								countRealListLearnByRole++
 								err = ListLearnByRole(accessToken.String(), userInfo.ProgramID, metrics)
 								if err != nil {
-									mutexLog.Lock()
-									log.Error(err)
-									mutexLog.Unlock()
 									break
 								}
 
@@ -205,9 +187,6 @@ func main() {
 								countRealNotifications++
 								err = Notifications(accessToken.String(), metrics)
 								if err != nil {
-									mutexLog.Lock()
-									log.Error(err)
-									mutexLog.Unlock()
 									break
 								}
 							}
@@ -283,9 +262,9 @@ func Attend(accesstoken string, metrics vegeta.Metrics) (err error) {
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Attend: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("Attend: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	if bodyMessage.String() != "プログラムを正常にリストします" {
-		logger.Error("Attend fail, response body:", body.String())
+		logger.Error("Attend fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
 	}
 	return nil
@@ -304,10 +283,10 @@ func startTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCon
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
 	trackingTest := int(gjson.Get(body.String(), "data.tracking.id").Num)
-	log.Info("Start Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("Start Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	//log.Info("StartTest message: ", gjson.Get(body.String(), "message"))
 	if bodyMessage.String() != "正常にテストを開始します" {
-		logger.Error("Start test fail, response body:", body.String())
+		logger.Error("Start test fail, response body:", body.String(), "; Error", res.Error)
 		return trackingTest, fmt.Errorf(body.String())
 	}
 	return trackingTest, nil
@@ -324,9 +303,9 @@ func EveluateAttack(accesstoken string, trackingTestId int, metrics vegeta.Metri
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Evaluate Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("Evaluate Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	if bodyMessage.String() != "正常にテストを開始します" {
-		logger.Error("Evaluate test fail, response body:", body.String())
+		logger.Error("Evaluate test fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
 	}
 	return nil
@@ -344,11 +323,11 @@ func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCont
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
 	trackingVid := int(gjson.Get(body.String(), "data.tracking.id").Num)
-	log.Info("Start Video message & tracking video id: ", bodyMessage, trackingVid)
+	log.Info("Start Video message & tracking video id: ", bodyMessage, trackingVid, "; Error", res.Error)
 	//log.Info(body.String())
 	//log.Info("StartTest message: ", gjson.Get(body.String(), "message"))
 	if bodyMessage.String() != "ビデオを正常に開始します" {
-		logger.Error("Start Video fail, response body:", body.String())
+		logger.Error("Start Video fail, response body:", body.String(), "; Error", res.Error)
 		return trackingVid, fmt.Errorf(body.String())
 	}
 	return trackingVid, nil
@@ -365,14 +344,14 @@ func CompleteVidAttack(accesstoken string, trackingVid int, metrics vegeta.Metri
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Complete Video: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("Complete Video: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	//log.Info(body.String())
 	//log.Info("StartTest message: ", gjson.Get(body.String(), "message"))
 	//if evaluatebodyMessage.String() != "テストを正常に評価します" {
 	//	logger.Error("Evaluate test fail, response body:", body.String())
 	//}
 	if bodyMessage.String() != "ビデオコンテンツを正常に完全にします！" {
-		logger.Error("Compleate Video fail, response body:", body.String())
+		logger.Error("Compleate Video fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
 	}
 	return nil
@@ -391,9 +370,9 @@ func ListProgramByRole(accesstoken string, metrics vegeta.Metrics) (err error) {
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("ListProgramByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("ListProgramByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	if bodyMessage.String() != "プログラムの一覧を取得しました！" {
-		logger.Error("ListProgramByRole fail, response body:", body.String())
+		logger.Error("ListProgramByRole fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
 	}
 	return nil
@@ -412,9 +391,9 @@ func ListActivityByRole(accesstoken string, metrics vegeta.Metrics) (err error) 
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("ListActivityByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("ListActivityByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	if bodyMessage.String() != "アクティビティの一覧を取得しました！" {
-		logger.Error("ListActivityByRole fail, response body:", body.String())
+		logger.Error("ListActivityByRole fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
 	}
 	return nil
@@ -433,9 +412,9 @@ func ListLearnByRole(accesstoken string, program_id uint32, metrics vegeta.Metri
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("ListLearnByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("ListLearnByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	if bodyMessage.String() != "学習の一覧を取得しました！" {
-		logger.Error("ListLearnByRole fail, response body:", body.String())
+		logger.Error("ListLearnByRole fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
 	}
 	return nil
@@ -454,9 +433,9 @@ func Notifications(accesstoken string, metrics vegeta.Metrics) (err error) {
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Notifications: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"))
+	log.Info("Notifications: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
 	if bodyMessage.String() != "通知の一覧を正常に取得しました！" {
-		logger.Error("Notifications fail, response body:", body.String())
+		logger.Error("Notifications fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
 	}
 	return nil
