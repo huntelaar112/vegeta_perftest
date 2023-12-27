@@ -90,7 +90,7 @@ func main() {
 		body := bytes.NewBuffer(res.Body)
 		bodyStatus := gjson.Get(body.String(), "status")
 		//log.Info("Login status: ", gjson.Get(body.String(), "status"))
-		log.Info("Login: message:", gjson.Get(body.String(), "message"), "; status: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+		log.Info("Login: message:", gjson.Get(body.String(), "message"), "; status: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 		accessToken := gjson.Get(body.String(), "data.token")
 		requestusername := gjson.Get(body.String(), "data.username").String()
 		if bodyStatus.Num != 20000 {
@@ -213,11 +213,19 @@ func main() {
 
 	metrics.Close()
 	reporter := vegeta.NewTextReporter(&metrics)
-	file, err := os.Create("./resultfile")
+	hdrReporter := vegeta.NewHDRHistogramPlotReporter(&metrics)
+
+	file, err := os.Create("./Text_Report.txt")
 	if err != nil {
 		fmt.Println(err)
 	}
 	reporter(io.Writer(file))
+
+	fileHdr, err := os.Create("./Hdr_Plot_Report")
+	if err != nil {
+		fmt.Println(err)
+	}
+	hdrReporter(io.Writer(fileHdr))
 }
 
 func initLogger() {
@@ -255,14 +263,20 @@ func Attend(accesstoken string, metrics vegeta.Metrics) (err error) {
 	attendDuration := 10 * time.Millisecond */
 	attendRate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	attendDuration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "Attend")
 	mutexMetrics.Lock()
 	metrics.Add(res)
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Attend: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("Attend: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	if bodyMessage.String() != "プログラムを正常にリストします" {
 		logger.Error("Attend fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
@@ -275,7 +289,13 @@ func startTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCon
 	Targeter := enplus.EnplusStartTest("/auth/execute-programs/startTest", accesstoken, ProgramID, SessionID, LessonID, TestContentID)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Start test")
 	mutexMetrics.Lock()
 	metrics.Add(res)
@@ -283,7 +303,7 @@ func startTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCon
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
 	trackingTest := int(gjson.Get(body.String(), "data.tracking.id").Num)
-	log.Info("Start Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("Start Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	//log.Info("StartTest message: ", gjson.Get(body.String(), "message"))
 	if bodyMessage.String() != "正常にテストを開始します" {
 		logger.Error("Start test fail, response body:", body.String(), "; Error", res.Error)
@@ -296,14 +316,20 @@ func EveluateAttack(accesstoken string, trackingTestId int, metrics vegeta.Metri
 	Targeter := enplus.EnplusEvaluateTest("/auth/execute-programs/evaluateTest", accesstoken, trackingTestId)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Evaluate test")
 	mutexMetrics.Lock()
 	metrics.Add(res)
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Evaluate Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("Evaluate Test: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	if bodyMessage.String() != "正常にテストを開始します" {
 		logger.Error("Evaluate test fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
@@ -315,7 +341,13 @@ func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCont
 	Targeter := enplus.EnplusStartVid("/auth/execute-programs/startVideo", accesstoken, ProgramID, SessionID, LessonID, TestContentID)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Start Video")
 	mutexMetrics.Lock()
 	metrics.Add(res)
@@ -337,14 +369,20 @@ func CompleteVidAttack(accesstoken string, trackingVid int, metrics vegeta.Metri
 	Targeter := enplus.EnplusCompleteVid("", accesstoken, trackingVid)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Evaluate test")
 	mutexMetrics.Lock()
 	metrics.Add(res)
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Complete Video: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("Complete Video: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	//log.Info(body.String())
 	//log.Info("StartTest message: ", gjson.Get(body.String(), "message"))
 	//if evaluatebodyMessage.String() != "テストを正常に評価します" {
@@ -363,14 +401,20 @@ func ListProgramByRole(accesstoken string, metrics vegeta.Metrics) (err error) {
 	attendDuration := 10 * time.Millisecond */
 	attendRate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	attendDuration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "ListProgramByRole")
 	mutexMetrics.Lock()
 	metrics.Add(res)
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("ListProgramByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("ListProgramByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	if bodyMessage.String() != "プログラムの一覧を取得しました！" {
 		logger.Error("ListProgramByRole fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
@@ -384,14 +428,20 @@ func ListActivityByRole(accesstoken string, metrics vegeta.Metrics) (err error) 
 	attendDuration := 10 * time.Millisecond */
 	attendRate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	attendDuration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "ListActivityByRole")
 	mutexMetrics.Lock()
 	metrics.Add(res)
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("ListActivityByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("ListActivityByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	if bodyMessage.String() != "アクティビティの一覧を取得しました！" {
 		logger.Error("ListActivityByRole fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
@@ -405,14 +455,20 @@ func ListLearnByRole(accesstoken string, program_id uint32, metrics vegeta.Metri
 	attendDuration := 10 * time.Millisecond */
 	attendRate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	attendDuration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "ListLearnByRole")
 	mutexMetrics.Lock()
 	metrics.Add(res)
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("ListLearnByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("ListLearnByRole: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	if bodyMessage.String() != "学習の一覧を取得しました！" {
 		logger.Error("ListLearnByRole fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
@@ -426,14 +482,20 @@ func Notifications(accesstoken string, metrics vegeta.Metrics) (err error) {
 	attendDuration := 10 * time.Millisecond */
 	attendRate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	attendDuration := 1 * time.Second
-	attacker := vegeta.NewAttacker()
+	attacker := vegeta.NewAttacker(
+		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.KeepAlive(false),
+		vegeta.MaxConnections(2048),
+		vegeta.Timeout(0),
+		//vegeta.HTTP2(true),
+	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "Notifications")
 	mutexMetrics.Lock()
 	metrics.Add(res)
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
-	log.Info("Notifications: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; Error", res.Error)
+	log.Info("Notifications: message:", gjson.Get(body.String(), "message"), "\tstatus: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 	if bodyMessage.String() != "通知の一覧を正常に取得しました！" {
 		logger.Error("Notifications fail, response body:", body.String(), "; Error", res.Error)
 		return fmt.Errorf(body.String())
