@@ -42,7 +42,22 @@ var (
 
 	waitGroup    sync.WaitGroup
 	mutexMetrics = &sync.Mutex{}
+
+	metrics Metrics
 )
+
+type Metrics struct {
+	SumMetrics         vegeta.Metrics
+	LoginMetrics       vegeta.Metrics
+	AttendMetrics      vegeta.Metrics
+	StartTestMetrics   vegeta.Metrics
+	StartTestVid       vegeta.Metrics
+	CompleteVidAttack  vegeta.Metrics
+	ListProgramByRole  vegeta.Metrics
+	ListActivityByRole vegeta.Metrics
+	ListLearnByRole    vegeta.Metrics
+	Notifications      vegeta.Metrics
+}
 
 func init() {
 	initLogger()
@@ -79,14 +94,16 @@ func main() {
 		vegeta.Timeout(0),
 		//vegeta.HTTP2(true),
 	)
-	var metrics vegeta.Metrics
+
 	targeter := enplus.EnplusLogin("/login", jsonFileContentArray, &CountLogin)
 
 	// Start Attack ********************************************************************************
 	for res := range attacker.Attack(targeter, rate, duration, "EnplusLogin") {
 		// Login ******************************************************************************
 		countRealLogin++
-		metrics.Add(res)
+		metrics.LoginMetrics.Add(res)
+		metrics.SumMetrics.Add(res)
+
 		body := bytes.NewBuffer(res.Body)
 		bodyStatus := gjson.Get(body.String(), "status")
 		//log.Info("Login status: ", gjson.Get(body.String(), "status"))
@@ -102,7 +119,7 @@ func main() {
 			go func() {
 				defer waitGroup.Done()
 				countRealAttend++
-				Attend(accessToken.String(), metrics)
+				Attend(accessToken.String(), metrics.AttendMetrics, metrics.SumMetrics)
 
 				// track user Sample test
 				userindex, err := TrackUser2Index(requestusername, jsonFileContentArray)
@@ -137,7 +154,7 @@ func main() {
 							} else {
 								// StartTest *************************************************************************************
 								countRealStartTest++
-								_, err := startTestAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i], metrics)
+								_, err := StartTestAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i], metrics.StartTestMetrics, metrics.SumMetrics)
 								if err != nil {
 									break
 								}
@@ -152,40 +169,40 @@ func main() {
 
 								// Start Video ***********************************************************************************
 								countRealStartVid++
-								trackingVidId, err := startVidAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.VideoContentIDs[i], metrics)
+								trackingVidId, err := startVidAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.VideoContentIDs[i], metrics.StartTestVid, metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 								// Complete Video ********************************************************************************
 								countRealCompleteVid++
-								err = CompleteVidAttack(accessToken.String(), trackingVidId, metrics)
+								err = CompleteVidAttack(accessToken.String(), trackingVidId, metrics.CompleteVidAttack, metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 								// ListProgramByRole ********************************************************************************
 								countRealListProgramByRole++
-								err = ListProgramByRole(accessToken.String(), metrics)
+								err = ListProgramByRole(accessToken.String(), metrics.ListProgramByRole, metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 
 								// ListProgramByRole ********************************************************************************
 								countRealListActivityByRole++
-								err = ListActivityByRole(accessToken.String(), metrics)
+								err = ListActivityByRole(accessToken.String(), metrics.ListActivityByRole, metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 
 								// ListProgramByRole ********************************************************************************
 								countRealListLearnByRole++
-								err = ListLearnByRole(accessToken.String(), userInfo.ProgramID, metrics)
+								err = ListLearnByRole(accessToken.String(), userInfo.ProgramID, metrics.ListLearnByRole, metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 
 								// ListProgramByRole ********************************************************************************
 								countRealNotifications++
-								err = Notifications(accessToken.String(), metrics)
+								err = Notifications(accessToken.String(), metrics.Notifications, metrics.SumMetrics)
 								if err != nil {
 									break
 								}
@@ -211,21 +228,27 @@ func main() {
 	log.Warn("Start test count = ", countRealListLearnByRole)
 	log.Warn("Start video count = ", countRealNotifications)
 
-	metrics.Close()
-	reporter := vegeta.NewTextReporter(&metrics)
-	hdrReporter := vegeta.NewHDRHistogramPlotReporter(&metrics)
+	metrics.SumMetrics.Close()
+	metrics.LoginMetrics.Close()
+	metrics.AttendMetrics.Close()
+	metrics.StartTestMetrics.Close()
+	metrics.StartTestVid.Close()
+	metrics.CompleteVidAttack.Close()
+	metrics.ListProgramByRole.Close()
+	metrics.ListActivityByRole.Close()
+	metrics.ListLearnByRole.Close()
+	metrics.Notifications.Close()
 
-	file, err := os.Create("./Text_Report.txt")
-	if err != nil {
-		fmt.Println(err)
-	}
-	reporter(io.Writer(file))
-
-	fileHdr, err := os.Create("./Hdr_Plot_Report")
-	if err != nil {
-		fmt.Println(err)
-	}
-	hdrReporter(io.Writer(fileHdr))
+	GenerateReport(&metrics.SumMetrics, "SumReport")
+	GenerateReport(&metrics.LoginMetrics, "LoginReport")
+	GenerateReport(&metrics.AttendMetrics, "AttendReport")
+	GenerateReport(&metrics.StartTestMetrics, "StartTestReport")
+	GenerateReport(&metrics.StartTestVid, "StartTestVidReport")
+	GenerateReport(&metrics.CompleteVidAttack, "CompleteVidAttackReport")
+	GenerateReport(&metrics.ListProgramByRole, "ListProgramByRoleReport")
+	GenerateReport(&metrics.ListActivityByRole, "ListActivityByRoleReport")
+	GenerateReport(&metrics.ListLearnByRole, "ListLearnByRoleReport")
+	GenerateReport(&metrics.Notifications, "NotificationsReport")
 }
 
 func initLogger() {
@@ -257,7 +280,7 @@ func initLogger() {
 	})
 }
 
-func Attend(accesstoken string, metrics vegeta.Metrics) (err error) {
+func Attend(accesstoken string, metrics ...vegeta.Metrics) (err error) {
 	attendTargeter := enplus.EnplusAttend("/auth/execute-programs/listByUser?role_id=3", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -272,7 +295,9 @@ func Attend(accesstoken string, metrics vegeta.Metrics) (err error) {
 	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "Attend")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -285,7 +310,7 @@ func Attend(accesstoken string, metrics vegeta.Metrics) (err error) {
 }
 
 // Targeter := enplus.EnplusStartTest("/auth/execute-programs/startTest", accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i])
-func startTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics vegeta.Metrics) (trackingTestId int, err error) {
+func StartTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics ...vegeta.Metrics) (trackingTestId int, err error) {
 	Targeter := enplus.EnplusStartTest("/auth/execute-programs/startTest", accesstoken, ProgramID, SessionID, LessonID, TestContentID)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -298,7 +323,9 @@ func startTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCon
 	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Start test")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -312,7 +339,7 @@ func startTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCon
 	return trackingTest, nil
 }
 
-func EveluateAttack(accesstoken string, trackingTestId int, metrics vegeta.Metrics) (err error) {
+func EveluateAttack(accesstoken string, trackingTestId int, metrics ...vegeta.Metrics) (err error) {
 	Targeter := enplus.EnplusEvaluateTest("/auth/execute-programs/evaluateTest", accesstoken, trackingTestId)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -325,7 +352,9 @@ func EveluateAttack(accesstoken string, trackingTestId int, metrics vegeta.Metri
 	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Evaluate test")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -337,7 +366,7 @@ func EveluateAttack(accesstoken string, trackingTestId int, metrics vegeta.Metri
 	return nil
 }
 
-func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics vegeta.Metrics) (trackingVidId int, err error) {
+func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics ...vegeta.Metrics) (trackingVidId int, err error) {
 	Targeter := enplus.EnplusStartVid("/auth/execute-programs/startVideo", accesstoken, ProgramID, SessionID, LessonID, TestContentID)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -350,7 +379,9 @@ func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCont
 	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Start Video")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -365,7 +396,7 @@ func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCont
 	return trackingVid, nil
 }
 
-func CompleteVidAttack(accesstoken string, trackingVid int, metrics vegeta.Metrics) (err error) {
+func CompleteVidAttack(accesstoken string, trackingVid int, metrics ...vegeta.Metrics) (err error) {
 	Targeter := enplus.EnplusCompleteVid("", accesstoken, trackingVid)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -378,7 +409,9 @@ func CompleteVidAttack(accesstoken string, trackingVid int, metrics vegeta.Metri
 	)
 	res := <-attacker.Attack(Targeter, Rate, Duration, "Evaluate test")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -395,7 +428,7 @@ func CompleteVidAttack(accesstoken string, trackingVid int, metrics vegeta.Metri
 	return nil
 }
 
-func ListProgramByRole(accesstoken string, metrics vegeta.Metrics) (err error) {
+func ListProgramByRole(accesstoken string, metrics ...vegeta.Metrics) (err error) {
 	attendTargeter := enplus.ListProgramByRole("", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -410,7 +443,9 @@ func ListProgramByRole(accesstoken string, metrics vegeta.Metrics) (err error) {
 	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "ListProgramByRole")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -422,7 +457,7 @@ func ListProgramByRole(accesstoken string, metrics vegeta.Metrics) (err error) {
 	return nil
 }
 
-func ListActivityByRole(accesstoken string, metrics vegeta.Metrics) (err error) {
+func ListActivityByRole(accesstoken string, metrics ...vegeta.Metrics) (err error) {
 	attendTargeter := enplus.ListActivityByRole("", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -437,7 +472,9 @@ func ListActivityByRole(accesstoken string, metrics vegeta.Metrics) (err error) 
 	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "ListActivityByRole")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -449,7 +486,7 @@ func ListActivityByRole(accesstoken string, metrics vegeta.Metrics) (err error) 
 	return nil
 }
 
-func ListLearnByRole(accesstoken string, program_id uint32, metrics vegeta.Metrics) (err error) {
+func ListLearnByRole(accesstoken string, program_id uint32, metrics ...vegeta.Metrics) (err error) {
 	attendTargeter := enplus.ListLearnByRole("", accesstoken, program_id)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -464,7 +501,9 @@ func ListLearnByRole(accesstoken string, program_id uint32, metrics vegeta.Metri
 	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "ListLearnByRole")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -476,7 +515,7 @@ func ListLearnByRole(accesstoken string, program_id uint32, metrics vegeta.Metri
 	return nil
 }
 
-func Notifications(accesstoken string, metrics vegeta.Metrics) (err error) {
+func Notifications(accesstoken string, metrics ...vegeta.Metrics) (err error) {
 	attendTargeter := enplus.Notifications("", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -491,7 +530,9 @@ func Notifications(accesstoken string, metrics vegeta.Metrics) (err error) {
 	)
 	res := <-attacker.Attack(attendTargeter, attendRate, attendDuration, "Notifications")
 	mutexMetrics.Lock()
-	metrics.Add(res)
+	for _, metric := range metrics {
+		metric.Add(res)
+	}
 	mutexMetrics.Unlock()
 	body := bytes.NewBuffer(res.Body)
 	bodyMessage := gjson.Get(body.String(), "message")
@@ -511,4 +552,21 @@ func TrackUser2Index(user string, jsonSample []enplus.JSONTestSample) (uint32, e
 		}
 	}
 	return i, fmt.Errorf("Can't find index of ", user)
+}
+
+func GenerateReport(metric *vegeta.Metrics, reportName string) {
+	reporter := vegeta.NewTextReporter(metric)
+	hdrReporter := vegeta.NewHDRHistogramPlotReporter(metric)
+
+	file, err := os.Create("./Text_Report_" + reportName + ".txt")
+	if err != nil {
+		fmt.Println(err)
+	}
+	reporter(io.Writer(file))
+
+	fileHdr, err := os.Create("./HdrPlot_Report_" + reportName)
+	if err != nil {
+		fmt.Println(err)
+	}
+	hdrReporter(io.Writer(fileHdr))
 }
