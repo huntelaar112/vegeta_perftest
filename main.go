@@ -68,33 +68,33 @@ func main() {
 	filePath := sampleFile
 	jsonFileContent, err := ioutil.ReadFile(filePath)
 	if err != nil {
-		log.Error("Error reading file:", err)
+		log.Error("Error reading sample file:", filePath, " Error: ", err)
 		return
 	}
 	contentStr := string(jsonFileContent)
-	//fmt.Println(contentStr)
-	log.Info("Json file is valid:", json.Valid([]byte(contentStr)))
+	if !json.Valid([]byte(contentStr)) {
+		log.Error("Content json of file is not valid: ", filePath, " Error: ", err)
+		return
+	}
 
 	var jsonFileContentArray []enplus.JSONTestSample
 	json.Unmarshal(jsonFileContent, &jsonFileContentArray)
 	if err != nil {
 		log.Error("Error unmarshal json:", err)
 	}
-	//fmt.Printf("%+v", jsonFileContentArray)
-	//log.Info(jsonFileContentArray)
-	//log.Info(len(jsonFileContentArray))
+
 	log.Warn("Start performance test.")
+
+	// Param test for Login
 	rate := vegeta.Rate{Freq: NumberThread, Per: time.Duration(uint64(PerSeconds) * uint64(time.Second))}
 	duration := time.Duration(uint64(Durration) * uint64(time.Second))
-
 	attacker := vegeta.NewAttacker(
-		vegeta.Workers(1000), // Set the number of workers to 100
+		vegeta.Workers(1000),
 		vegeta.KeepAlive(false),
 		vegeta.MaxConnections(2048),
 		vegeta.Timeout(0),
 		//vegeta.HTTP2(true),
 	)
-
 	targeter := enplus.EnplusLogin("/login", jsonFileContentArray, &CountLogin)
 
 	// Start Attack ********************************************************************************
@@ -106,7 +106,6 @@ func main() {
 
 		body := bytes.NewBuffer(res.Body)
 		bodyStatus := gjson.Get(body.String(), "status")
-		//log.Info("Login status: ", gjson.Get(body.String(), "status"))
 		log.Info("Login: message:", gjson.Get(body.String(), "message"), "; status: ", gjson.Get(body.String(), "status"), "; ", res.Error)
 		accessToken := gjson.Get(body.String(), "data.token")
 		requestusername := gjson.Get(body.String(), "data.username").String()
