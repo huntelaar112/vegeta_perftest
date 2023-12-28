@@ -20,10 +20,11 @@ import (
 
 var (
 	logger     = log.New()
-	applog     = "./error_rqs.log"
-	requestLog = "./logging_rqs.log"
+	applog     = "./Report_All_Requests_Failed.json"
+	requestLog = "./Report_All_Requests.log"
 	logf       *os.File
 	CountLogin = 0
+	sampleFile = "./sample.json"
 
 	countRealLogin              = 0
 	countRealAttend             = 0
@@ -36,7 +37,7 @@ var (
 	countRealListLearnByRole    = 0
 	countRealNotifications      = 0
 
-	NumberThread = 500
+	NumberThread = 10
 	PerSeconds   = 10
 	Durration    = 10
 
@@ -64,8 +65,7 @@ func init() {
 }
 
 func main() {
-
-	filePath := "./sample.json"
+	filePath := sampleFile
 	jsonFileContent, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		log.Error("Error reading file:", err)
@@ -119,7 +119,7 @@ func main() {
 			go func() {
 				defer waitGroup.Done()
 				countRealAttend++
-				Attend(accessToken.String(), metrics.AttendMetrics, metrics.SumMetrics)
+				Attend(accessToken.String(), &metrics.AttendMetrics, &metrics.SumMetrics)
 
 				// track user Sample test
 				userindex, err := TrackUser2Index(requestusername, jsonFileContentArray)
@@ -154,7 +154,7 @@ func main() {
 							} else {
 								// StartTest *************************************************************************************
 								countRealStartTest++
-								_, err := StartTestAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i], metrics.StartTestMetrics, metrics.SumMetrics)
+								_, err := StartTestAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i], &metrics.StartTestMetrics, &metrics.SumMetrics)
 								if err != nil {
 									break
 								}
@@ -169,40 +169,40 @@ func main() {
 
 								// Start Video ***********************************************************************************
 								countRealStartVid++
-								trackingVidId, err := startVidAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.VideoContentIDs[i], metrics.StartTestVid, metrics.SumMetrics)
+								trackingVidId, err := startVidAttack(accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.VideoContentIDs[i], &metrics.StartTestVid, &metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 								// Complete Video ********************************************************************************
 								countRealCompleteVid++
-								err = CompleteVidAttack(accessToken.String(), trackingVidId, metrics.CompleteVidAttack, metrics.SumMetrics)
+								err = CompleteVidAttack(accessToken.String(), trackingVidId, &metrics.CompleteVidAttack, &metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 								// ListProgramByRole ********************************************************************************
 								countRealListProgramByRole++
-								err = ListProgramByRole(accessToken.String(), metrics.ListProgramByRole, metrics.SumMetrics)
+								err = ListProgramByRole(accessToken.String(), &metrics.ListProgramByRole, &metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 
 								// ListProgramByRole ********************************************************************************
 								countRealListActivityByRole++
-								err = ListActivityByRole(accessToken.String(), metrics.ListActivityByRole, metrics.SumMetrics)
+								err = ListActivityByRole(accessToken.String(), &metrics.ListActivityByRole, &metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 
 								// ListProgramByRole ********************************************************************************
 								countRealListLearnByRole++
-								err = ListLearnByRole(accessToken.String(), userInfo.ProgramID, metrics.ListLearnByRole, metrics.SumMetrics)
+								err = ListLearnByRole(accessToken.String(), userInfo.ProgramID, &metrics.ListLearnByRole, &metrics.SumMetrics)
 								if err != nil {
 									break
 								}
 
 								// ListProgramByRole ********************************************************************************
 								countRealNotifications++
-								err = Notifications(accessToken.String(), metrics.Notifications, metrics.SumMetrics)
+								err = Notifications(accessToken.String(), &metrics.Notifications, &metrics.SumMetrics)
 								if err != nil {
 									break
 								}
@@ -263,7 +263,7 @@ func initLogger() {
 	logger.SetOutput(logf)
 	logger.SetLevel(log.InfoLevel)
 	logger.SetReportCaller(true)
-	logger.SetFormatter(&log.JSONFormatter{PrettyPrint: true})
+	logger.SetFormatter(&log.JSONFormatter{PrettyPrint: false})
 
 	// log request
 	utils.FileCreate(requestLog)
@@ -280,7 +280,7 @@ func initLogger() {
 	})
 }
 
-func Attend(accesstoken string, metrics ...vegeta.Metrics) (err error) {
+func Attend(accesstoken string, metrics ...*vegeta.Metrics) (err error) {
 	attendTargeter := enplus.EnplusAttend("/auth/execute-programs/listByUser?role_id=3", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -310,7 +310,7 @@ func Attend(accesstoken string, metrics ...vegeta.Metrics) (err error) {
 }
 
 // Targeter := enplus.EnplusStartTest("/auth/execute-programs/startTest", accessToken.String(), userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i])
-func StartTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics ...vegeta.Metrics) (trackingTestId int, err error) {
+func StartTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics ...*vegeta.Metrics) (trackingTestId int, err error) {
 	Targeter := enplus.EnplusStartTest("/auth/execute-programs/startTest", accesstoken, ProgramID, SessionID, LessonID, TestContentID)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -339,7 +339,7 @@ func StartTestAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCon
 	return trackingTest, nil
 }
 
-func EveluateAttack(accesstoken string, trackingTestId int, metrics ...vegeta.Metrics) (err error) {
+func EveluateAttack(accesstoken string, trackingTestId int, metrics ...*vegeta.Metrics) (err error) {
 	Targeter := enplus.EnplusEvaluateTest("/auth/execute-programs/evaluateTest", accesstoken, trackingTestId)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -366,7 +366,7 @@ func EveluateAttack(accesstoken string, trackingTestId int, metrics ...vegeta.Me
 	return nil
 }
 
-func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics ...vegeta.Metrics) (trackingVidId int, err error) {
+func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestContentID uint32, metrics ...*vegeta.Metrics) (trackingVidId int, err error) {
 	Targeter := enplus.EnplusStartVid("/auth/execute-programs/startVideo", accesstoken, ProgramID, SessionID, LessonID, TestContentID)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -396,7 +396,7 @@ func startVidAttack(accesstoken string, ProgramID, SessionID, LessonID, TestCont
 	return trackingVid, nil
 }
 
-func CompleteVidAttack(accesstoken string, trackingVid int, metrics ...vegeta.Metrics) (err error) {
+func CompleteVidAttack(accesstoken string, trackingVid int, metrics ...*vegeta.Metrics) (err error) {
 	Targeter := enplus.EnplusCompleteVid("", accesstoken, trackingVid)
 	Rate := vegeta.Rate{Freq: 1, Per: 1 * time.Second}
 	Duration := 1 * time.Second
@@ -428,7 +428,7 @@ func CompleteVidAttack(accesstoken string, trackingVid int, metrics ...vegeta.Me
 	return nil
 }
 
-func ListProgramByRole(accesstoken string, metrics ...vegeta.Metrics) (err error) {
+func ListProgramByRole(accesstoken string, metrics ...*vegeta.Metrics) (err error) {
 	attendTargeter := enplus.ListProgramByRole("", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -457,7 +457,7 @@ func ListProgramByRole(accesstoken string, metrics ...vegeta.Metrics) (err error
 	return nil
 }
 
-func ListActivityByRole(accesstoken string, metrics ...vegeta.Metrics) (err error) {
+func ListActivityByRole(accesstoken string, metrics ...*vegeta.Metrics) (err error) {
 	attendTargeter := enplus.ListActivityByRole("", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -486,7 +486,7 @@ func ListActivityByRole(accesstoken string, metrics ...vegeta.Metrics) (err erro
 	return nil
 }
 
-func ListLearnByRole(accesstoken string, program_id uint32, metrics ...vegeta.Metrics) (err error) {
+func ListLearnByRole(accesstoken string, program_id uint32, metrics ...*vegeta.Metrics) (err error) {
 	attendTargeter := enplus.ListLearnByRole("", accesstoken, program_id)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
@@ -515,7 +515,7 @@ func ListLearnByRole(accesstoken string, program_id uint32, metrics ...vegeta.Me
 	return nil
 }
 
-func Notifications(accesstoken string, metrics ...vegeta.Metrics) (err error) {
+func Notifications(accesstoken string, metrics ...*vegeta.Metrics) (err error) {
 	attendTargeter := enplus.Notifications("", accesstoken)
 	/* 				attendRate := vegeta.Rate{Freq: 1, Per: 10 * time.Millisecond}
 	attendDuration := 10 * time.Millisecond */
