@@ -65,7 +65,7 @@ func init() {
 
 func main() {
 
-	filePath := "./response.json"
+	filePath := "./sample.json"
 	jsonFileContent, err := ioutil.ReadFile(filePath)
 	if err != nil {
 		log.Error("Error reading file:", err)
