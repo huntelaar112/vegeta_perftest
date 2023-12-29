@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"math/rand"
 	"os"
 	"path/filepath"
 	"sync"
@@ -37,7 +38,7 @@ var (
 	countRealListLearnByRole    = 0
 	countRealNotifications      = 0
 
-	NumberThread = 10
+	NumberThread = 500
 	PerSeconds   = 10
 	Durration    = 10
 
@@ -65,6 +66,8 @@ func init() {
 }
 
 func main() {
+	//GenCsvFile(sampleFile, "no")
+	//os.Exit(0)
 	filePath := sampleFile
 	jsonFileContent, err := ioutil.ReadFile(filePath)
 	if err != nil {
@@ -144,7 +147,7 @@ func main() {
 						}
 						// only use 3 first samplate test
 						for i := range larger {
-							if i > 2 {
+							if i > 1 {
 								break
 							}
 							if lession.TestContentIDs[i] == 0 && lession.VideoContentIDs[i] == 0 {
@@ -265,7 +268,7 @@ func initLogger() {
 	logger.SetFormatter(&log.JSONFormatter{PrettyPrint: false})
 
 	// log request
-	utils.FileCreate(requestLog)
+	//utils.FileCreate(requestLog)
 	/* 	logRequest, err := os.OpenFile(requestLog, os.O_APPEND|os.O_WRONLY, os.ModeAppend)
 	   	if err != nil {
 	   		log.Error(err)
@@ -568,4 +571,87 @@ func GenerateReport(metric *vegeta.Metrics, reportName string) {
 		fmt.Println(err)
 	}
 	hdrReporter(io.Writer(fileHdr))
+}
+
+func GenCsvFile(filejson, filecsv string) {
+	filePath := filejson
+	jsonFileContent, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		log.Error("Error reading sample file:", filejson, " Error: ", err)
+		return
+	}
+	contentStr := string(jsonFileContent)
+	if !json.Valid([]byte(contentStr)) {
+		log.Error("Content json of file is not valid: ", filePath, " Error: ", err)
+		return
+	}
+
+	var jsonFileContentArray []enplus.JSONTestSample
+	json.Unmarshal(jsonFileContent, &jsonFileContentArray)
+	if err != nil {
+		log.Error("Error unmarshal json:", err)
+	}
+
+	utils.DirCreate(filepath.Dir(filecsv), 0775)
+	utils.FileCreate(filecsv)
+	logf, err = os.OpenFile(applog, os.O_APPEND|os.O_WRONLY, os.ModeAppend)
+	if err != nil {
+		logger.Error(err)
+	}
+
+	testarr := make(map[string][][]uint32, 500)
+	listuser := []string{}
+	for _, userInfo := range jsonFileContentArray {
+		listuser = append(listuser, userInfo.User)
+		for _, session := range userInfo.Sessions {
+			for _, lession := range session.Lessons {
+				var larger []uint32
+				if len(lession.TestContentIDs) < len(lession.VideoContentIDs) {
+					larger = lession.VideoContentIDs
+					for i := len(lession.TestContentIDs); i < len(lession.VideoContentIDs); i++ {
+						lession.TestContentIDs = append(lession.TestContentIDs, 0)
+					}
+				} else {
+					larger = lession.TestContentIDs
+					for i := len(lession.VideoContentIDs); i < len(lession.TestContentIDs); i++ {
+						lession.VideoContentIDs = append(lession.VideoContentIDs, 0)
+					}
+				}
+				for i := range larger {
+					elements := []uint32{userInfo.ProgramID, session.SessionID, lession.LessonID, lession.TestContentIDs[i], lession.VideoContentIDs[i]}
+					testarr[userInfo.User] = append(testarr[userInfo.User], elements)
+					if i > 2 {
+						break
+					}
+				}
+			}
+		}
+	}
+
+	//fmt.Println(testarr)
+	//fmt.Print(listuser)
+	fmt.Println("email,program_id,section_id,lesson_id ,video_content_id,test_content_id")
+
+	//for i := 0; i < 20; i++ {
+	/* 		for user, arr := range testarr {
+		// 500 sample tests
+		fmt.Print(user)
+		for _, element := range arr[getRandomInt()] {
+			fmt.Print(",", element)
+		}
+		fmt.Println()
+	} */
+	for _, user := range listuser {
+		fmt.Print(user)
+		for _, element := range testarr[user][getRandomInt()] {
+			fmt.Print(",", element)
+		}
+		fmt.Println()
+	}
+	//}
+}
+
+func getRandomInt() int {
+	rand.Seed(time.Now().UnixNano()) // Seed the random number generator
+	return rand.Intn(10)             // Generate a random number between 0 and 9, then add 1
 }
