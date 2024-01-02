@@ -66,8 +66,9 @@ func init() {
 }
 
 func main() {
-	GenCsvFile(sampleFile, "no")
-	os.Exit(0)
+	// GEN CSV test sample for jmeter
+	//GenCsvFile(sampleFile, "no")
+	//os.Exit(0)
 
 	filePath := sampleFile
 	jsonFileContent, err := ioutil.ReadFile(filePath)
@@ -633,23 +634,15 @@ func GenCsvFile(filejson, filecsv string) {
 	//fmt.Print(listuser)
 	fmt.Println("email,program_id,section_id,lesson_id ,video_content_id,test_content_id")
 
-	//for i := 0; i < 20; i++ {
-	/* 		for user, arr := range testarr {
-		// 500 sample tests
-		fmt.Print(user)
-		for _, element := range arr[getRandomInt()] {
-			fmt.Print(",", element)
+	for i := 0; i < 20; i++ {
+		for _, user := range listuser {
+			fmt.Print(user)
+			for _, element := range testarr[user][getRandomInt()] {
+				fmt.Print(",", element)
+			}
+			fmt.Println()
 		}
-		fmt.Println()
-	} */
-	for _, user := range listuser {
-		fmt.Print(user)
-		for _, element := range testarr[user][getRandomInt()] {
-			fmt.Print(",", element)
-		}
-		fmt.Println()
 	}
-	//}
 }
 
 func getRandomInt() int {
