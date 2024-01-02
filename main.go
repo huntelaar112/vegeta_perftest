@@ -66,8 +66,9 @@ func init() {
 }
 
 func main() {
-	//GenCsvFile(sampleFile, "no")
-	//os.Exit(0)
+	GenCsvFile(sampleFile, "no")
+	os.Exit(0)
+
 	filePath := sampleFile
 	jsonFileContent, err := ioutil.ReadFile(filePath)
 	if err != nil {
